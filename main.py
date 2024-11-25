@@ -6,6 +6,7 @@ from upload_user import process_and_upload
 import pyfiglet
 
 def bannerLMS():
+    
     ascii_banner = pyfiglet.figlet_format("LMS SCRIPT")
     print(ascii_banner + "\n")
 
