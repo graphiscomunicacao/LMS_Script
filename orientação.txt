@@ -1,0 +1,14 @@
+Opções para o usuario:
+
+	- Informar se vai passar manualmente ou altomatico (id ou ids e o tipo)
+		- se for manualmente, pedir o id (ou id's) e o tipo
+		- se for automatico, pedir o tipo (para baixar todos os materias do tipo mencionado)
+	
+Funcionamento do script:
+
+	- Entrar na planilha (google planilha) pegar o id (ou os ids) e indentificar o tipo 
+	- Mandar uma request para a API com o id (ou id's) e o tipo
+	- Baixar o material pela URL obtida pelo request
+	- Salvar na pasta do tipo
+		- se não existir criar a pasta
+	- Marcar na planilha como migrado
